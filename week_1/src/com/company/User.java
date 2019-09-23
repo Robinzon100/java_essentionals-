@@ -10,4 +10,14 @@ public class User {
         surname = surname;
         age = age;
     }
+
+
+
+    static void isSwrul(int age){
+        if (age > 18){
+            System.out.println("he or she is above 18");
+        }else{
+            System.out.println("he or she is not above 18");
+        }
+    }
 }
